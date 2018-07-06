@@ -1,0 +1,539 @@
+//////////////////////////////////// ELEMENT-UI-CONFIG
+
+/* theme color */
+$--color-primary: $color-font-active;
+
+/* icon font path, required */
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+@import "~element-ui/packages/theme-chalk/src/index";
+//////////////////////////////////// ELEMENT-UI-CONFIG END
+html, body {
+  @include font-primary();
+  color: $color-font-primary;
+  height: 100%;
+  width: 100%;
+}
+
+//////////////////////////////////////////
+//                BUTTONS
+/////////////////////////////////////////
+.btn {
+  outline: none !important;
+  &:hover {
+    cursor: pointer;
+  }
+  &:focus {
+    box-shadow: none;
+  }
+}
+
+.btn.btn-primary {
+  @include font-primary();
+  height: 30px;
+  color: $color-font-primary;
+  background: linear-gradient(#363434, #1c1c1c 10%);
+  border-radius: 2px;
+  border: 1px solid #000000;
+  &:hover {
+    border-color: #000;
+  }
+  &:active {
+    border-color: #000 !important;
+    box-shadow: none !important;
+    background: linear-gradient(#363434, #1c1c1c 10%) !important;
+  }
+}
+
+.btn-transparent {
+  background-color: transparent;
+  color: $color-font-primary;
+  &:hover {
+    color: $color-font-active;
+  }
+  &.active {
+    color: $color-font-active;
+  }
+}
+
+.btn-collapse-control {
+  color: $color-font-secondary;
+}
+
+//////////////////////////////////
+//        FORMS
+//////////////////////////////////
+
+.form-group {
+  .form-label {
+    @include font-primary(10px);
+    color: $color-font-primary;
+    margin-bottom: 5px;
+  }
+  input[type=text].form-control {
+    @include font-primary(10px);
+    padding: 0 10px;
+    color: $color-font-primary;
+    height: 30px;
+    box-shadow: none !important;
+    border-radius: 2px;
+    border: 1px solid #000000;
+    background: $color-ui-primary;
+  }
+  select.form-control {
+    @include font-primary(10px);
+    padding: 0 10px;
+    color: $color-font-primary;
+    height: 30px;
+    box-shadow: none !important;
+    border-radius: 2px;
+    border: 1px solid #000000;
+    background: linear-gradient(#363434, #1c1c1c 10%);
+  }
+  select.form-control:not([size]):not([multiple]) {
+    height: 30px;
+    option {
+      color: #000000;
+    }
+  }
+}
+.el-input{
+  .el-input__inner{
+    @include font-primary(10px);
+    padding: 0 10px;
+    color: $color-font-primary;
+    height: 30px;
+    box-shadow: none !important;
+    border-radius: 2px;
+    background: black;
+    border: none;
+    &:hover{
+      outline: none;
+      box-shadow: none;
+    }
+    &:active{
+      outline: none;
+      box-shadow: none;
+    }
+    &::placeholder{
+      color: $color-font-primary;
+    }
+  }
+  ::-webkit-input-placeholder {
+    color: #666666;
+  }
+}
+
+
+.input-group {
+  .form-control {
+    @include font-primary(10px);
+    padding: 0 10px;
+    color: $color-font-primary;
+    height: 30px;
+    box-shadow: none !important;
+    border-radius: 2px;
+    border: 1px solid #000000;
+    background: $color-ui-primary;
+  }
+  .btn {
+  }
+}
+
+.form-check {
+  .form-check-label {
+    @include font-primary(10px);
+    color: $color-font-primary;
+    position: relative;
+    padding-left: 25px;
+    &:hover {
+      cursor: pointer;
+    }
+    &:before {
+      background-color: #000000;
+      display: inline-block;
+      height: 15px;
+      width: 15px;
+      position: absolute;
+      top: 0px;
+      left: 0;
+      content: ' ';
+      border-radius: 2px;
+      border: 1px solid $color-font-secondary;
+    }
+    &:after{
+      @include font-icon;
+      color: $color-font-secondary;
+      font-size: 25px;
+      position: absolute;
+      top: -5px;
+      left: -5px;
+    }
+  }
+  .form-check-input {
+    visibility: hidden;
+    position: absolute;
+    width: 0;
+    height: 0;
+    &:checked {
+      & + .form-check-label {
+        &:after {
+          content: '\e930';
+
+        }
+      }
+    }
+  }
+}
+
+input[type=password].form-control {
+  outline: none !important;
+  box-shadow: none !important;
+  border: 0;
+  background: $color-ui-primary-dark;
+}
+input[type=email].form-control {
+  outline: none !important;
+  box-shadow: none !important;
+  border: 0;
+  background: $color-ui-primary-dark;
+}
+
+//////////////////////////////////
+//        MAP CONTROLS
+//////////////////////////////////
+
+.control-container {
+  width: 295px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.16);
+  border: 1px solid #000000;
+  border-radius: 2px;
+  margin-bottom: 5px;
+  .control-header {
+    background-color: $color-ui-primary-dark;
+    border-bottom: 1px solid #000000;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    h3 {
+      @include font-primary();
+      color: $color-font-primary;
+      margin-bottom: 0;
+      text-align: left;
+      position: relative;
+      padding-left: 30px;
+      i {
+        position: absolute;
+        left: 0;
+        top: -2px;
+        font-size: 17px;
+      }
+
+    }
+    .btn-collapse-control {
+      padding: 0;
+      height: 15px;
+      width: 15px;
+      line-height: 0;
+      font-size: 15px;
+      border: none;
+    }
+  }
+  .control-body {
+    overflow: hidden;
+    transition: all 300ms ease-in-out;
+
+    &.control-collapse {
+    }
+  }
+}
+
+////////////////////////////////
+//////        CALENDAR
+/////////////////////////////////
+
+.my-calendar-wrapper {
+  .my-calendar {
+    user-select: none;
+    width: 295px;
+    background-color: $color-ui-primary-dark;
+    border: none;
+    text-transform: uppercase;
+    header {
+      display: inline-block;
+      width: 295px;
+      border-bottom: 1px solid #000000;
+      span {
+        &:not(.disabled) {
+          &:hover {
+            background-color: $color-ui-primary;
+          }
+        }
+
+      }
+      .prev, .next {
+        text-indent: 0;
+        font-size: 15px;
+        color: $color-font-secondary;
+        &:hover {
+          background-color: $color-ui-primary;
+        }
+        &:after {
+          content: none;
+        }
+      }
+    }
+    .cell.day, .cell.month, .cell.year {
+      &:not(.blank):not(.disabled) {
+        border-radius: 2px;
+        &:hover {
+          border: 1px solid $color-font-active;
+        }
+      }
+      &.selected {
+        background-color: $color-font-active;
+        color: #ffffff;
+        font-weight: bold;
+      }
+      &.disabled {
+        color: #363636;
+      }
+    }
+  }
+}
+
+////////////////////////////////////////77
+//                      SLIDER
+/////////////////////////////////////////7
+#app{
+  .vue-slider-component{
+    .vue-slider{
+      background: white;
+    }
+    .vue-slider-process{
+      background: white;
+    }
+    .vue-slider-dot {
+      background: black;
+      border: 2px solid white;
+    }
+  }
+
+}
+
+//////////////////////////////////
+//            SWITCH
+////////////////////////////////
+.el-switch{
+  .el-switch__core{
+    .el-switch__button{
+      background: $color-ui-primary;
+    }
+  }
+}
+
+////////////////////////////////////
+//            COLLAPSE
+///////////////////////////////////
+.el-collapse{
+  border: none;
+  .el-collapse-item{
+    .el-collapse-item__header{
+      @include font-primary(12px, bold);
+      padding: 10px 20px;
+      color: #666666;
+      background: #E1E1E1;
+      border: none;
+      border-bottom: 1px solid #CCCCCC;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      line-height: inherit;
+      height: auto;
+      position: relative;
+    }
+    .el-collapse-item__wrap{
+      background: rgb(228, 228, 228);
+      border: none;
+    }
+    .el-collapse-item__content{
+      color: #666666;
+      padding: 0;
+    }
+    .el-collapse-item__arrow{
+      line-height: inherit;
+      position: absolute;
+      right: 15px;
+      top: 50%;
+      margin-top: -10px;
+    }
+  }
+}
+
+////////////////////////////////////
+//            TABS
+///////////////////////////////////
+.tab-menu-modal {
+  height: 50px;
+  .el-tabs__header {
+    padding-left: 260px;
+  }
+  .el-tabs__header {
+   margin: 0;
+  }
+  .el-tabs__item.is-active {
+    color: #23A1C8;
+  }
+  .el-tabs__item {
+    color: #AAAAAA;
+  }
+  .el-tabs__nav{
+    height: 50px;
+    padding-top: 4px;
+  }
+  .el-tabs__nav-wrap::after {
+    background: black;
+    visibility: hidden;
+  }
+}
+
+////////////////////////////////////
+//            RADIO GROUP
+///////////////////////////////////
+.el-radio__input.is-checked .el-radio__inner{
+  border: none;
+  background: #000;
+  width: 14px;
+  height: 14px;
+}
+
+.el-radio__label{
+  color: #CCCCCC;
+}
+.el-radio__input.is-checked + .el-radio__label {
+  color: #FFF;
+}
+.el-radio__inner{
+  border: none;
+  background: #000;
+}
+.el-radio__inner::after {
+  background: #23A1C8;
+  width: 7px;
+  height: 7px;
+}
+.date-picker-buoy input{
+  color: #666666;
+  width: 100%;
+  height: 30px;
+  background: #000;
+  text-align: center;
+  padding: 10px;
+  border: none;
+}
+
+////////////////////////////////////
+//           CHECKBOX
+///////////////////////////////////
+  .el-checkbox__inner {
+    border: 1px solid #000;
+    width: 14px;
+    height: 14px;
+    background-color: #000;
+}
+
+.el-checkbox__input.is-checked{
+  background: #000;
+  border-color: #F00;
+}
+.el-checkbox__label{
+  @include font-primary(10px, normal);
+  color: #CCCCCC;
+}
+
+
+
+
+///////////////////////////////////////7
+//        MAP POPUP
+//////////////////////////////////////
+.leaflet-popup{
+  .leaflet-popup-content-wrapper, .leaflet-popup-tip{
+    background: $color-ui-primary-alpha;
+  }
+  .leaflet-popup-tip{
+  }
+}
+
+///////////////////////////////////////7
+//        DATEPICKER
+//////////////////////////////////////
+.date-picker-buoy input{
+  text-align: right;
+  padding-left: 45px;
+  padding-right: 30px;
+}
+
+////////////////////////////////////
+//            FORM ITEM
+///////////////////////////////////
+.el-form-item__content {
+  line-height: 10px;
+}
+
+.btn-close{
+  margin-top: 3px;
+  padding: 0;
+}
+
+.fill {
+  min-height: 100%;
+  height: 100%;
+}
+
+
+
+////////////////////////////////////
+//            SHARE BUTTON
+///////////////////////////////////
+.share-footer {
+  border-top: 1px solid #000000;
+  margin: 0 -10px;
+  padding: 10px 10px 0;
+  .btn{
+    padding: 0;
+    font-size: 18px;
+    height: 30px;
+    border-radius: 2px;
+    width: 80px;
+  }
+
+  .btn-facebook {
+    background-color: #1446BB;
+    color: #ffffff;
+  }
+
+  .btn-twitter {
+    background-color: #00C2FF;
+    color: #ffffff;
+  }
+
+  .btn-google-plus {
+    line-height: 0px;
+    font-size: 25px;
+    background-color: #FF7700;
+    color: #ffffff;
+  }
+
+}
+
+.leaflet-control-scale-line {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  margin-right: 390px;
+}
+.map-info-date{
+  margin-right: 20px;
+}

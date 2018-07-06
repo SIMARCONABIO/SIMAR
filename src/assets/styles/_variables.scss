@@ -1,0 +1,52 @@
+/////////////////////////////////////////
+//                                COLORS
+/////////////////////////////////////////
+
+$color-ui-primary: #111111;
+$color-ui-primary-dark: #090909;
+
+$color-ui-primary-alpha: rgba(17,17,17, 0.8);
+$color-ui-primary-dark-alpha: rgba(9,9,9, 0.8);
+
+$color-font-primary: #aaaaaa;
+$color-font-secondary: #444444;
+$color-font-active: #23A1C8;
+$color-font-disabled: #cdcdcd;
+
+//////////////////////////////////////////
+//                           FONTS MIXINS
+//////////////////////////////////////////
+
+@mixin font-primary($size:12px, $weight:regular, $style:normal) {
+  font-family: 'Open Sans', sans-serif;
+  font-size: $size;
+  font-style: normal; // Import other font styles to use this feature
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+    @if ($weight == regular) {
+    font-weight: 400;
+  } @else if ($weight == light) {
+    font-weight: 300;
+  } @else if ($weight == semibold) {
+    font-weight: 600;
+  } @else if ($weight == bold) {
+    font-weight: 700;
+  } @else {
+    font-weight: $weight;
+  }
+}
+
+@mixin font-icon() {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'SIMAR-ICONS' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
