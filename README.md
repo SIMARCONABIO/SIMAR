@@ -1,29 +1,54 @@
 # SIMAR
 
-Visualizador SIMAR de CONABIO para el proyecto de [Sistema de Información y Análisis de Ecosistemas Marinos de México](https://simar.conabio.gob.mx/).
+Visualizador SIMAR de CONABIO para el proyecto de [Sistema de Información y Análisis de Ecosistemas Marinos de México](https://simar.conabio.gob.mx/) creado para la Subcoordinación de Monitoreo Marino.
 
-## Build Setup
+## Descarga e instalación de los repositorios
+
+```
+git clone https://github.com/SIMARCONABIO/SIMAR
+```
+
+## Instalación de dependencias
 
 ``` bash
-# install dependencies
 npm install
+```
 
-# serve with hot reload at localhost:8080
+## Ejecutar localmente en modo pruebas
+
+``` bash
 npm run dev
+```
 
-# build for production with minification
+Una vez en ejecución se puede consultar la aplicación con `localhost:8080`.
+
+## Compilar códigos
+
+``` bash
 npm run build
+```
 
-# build for production and view the bundle analyzer report
+## Compliar códigos con reporte detallado
+
+``` bash
 npm run build --report
+```
 
-# run unit tests
+## Ejecutar pruebas Unit
+
+``` bash
 npm run unit
+```
 
-# run e2e tests
+## Ejecutar pruebas e2e
+
+``` bash
 npm run e2e
+```
 
-# run all tests
+## Ejecutar todas las pruebas
+
+``` bash
 npm test
 ```
 
