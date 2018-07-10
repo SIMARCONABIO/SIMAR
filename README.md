@@ -1,6 +1,6 @@
 # SIMAR
 
-Visualizador SIMAR de CONABIO para el proyecto de [Sistema de Información y Análisis de Ecosistemas Marinos de México](https://simar.conabio.gob.mx/) creado para la Subcoordinación de Monitoreo Marino.
+Visualizador SIMAR de CONABIO para el proyecto de [Sistema de Información y Análisis de Ecosistemas Marinos de México](https://simar.conabio.gob.mx/) creado para la Subcoordinación de Monitoreo Marino. Esta aplicación es la plataforma de visualización del [Sistema Satelital de Monitoreo Oceánico (SATMO)](http://www.biodiversidad.gob.mx/pais/mares/satmo/index.html).
 
 ## Descarga e instalación de los repositorios
 
