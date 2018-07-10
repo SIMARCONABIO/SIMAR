@@ -28,6 +28,8 @@ Una vez en ejecución se puede consultar la aplicación con `localhost:8080`.
 npm run build
 ```
 
+Una vez compilados los archivos resultantes serán colocados en el directorio `/dist` y pueden ser colocados o actualizados en un servidor HTTP (Ej. Apache).
+
 ## Compliar códigos con reporte detallado
 
 ``` bash

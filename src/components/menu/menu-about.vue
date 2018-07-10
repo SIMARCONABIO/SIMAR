@@ -53,7 +53,7 @@
                     de resolución espacial. El algoritmo de detección este sistema se basa en la metodología propuesta por NOAA Coral Reef Watch para productos con resolución de 5-km.<br><br>
 
                     Actualmente se encuentran en desarrollo dentro de SIMAR los siguientes módulos operacionales: sistema satelital de alerta temprana de florecimientos algales (SATfa),
-                    para estudiar la posible ocurrencia de de florecimientos algales nocivos (mareas rojas) con riesgo a la salud humana; el sistema satelital de alerta temprana de sargazo (SATsum)
+                    para estudiar la posible ocurrencia de florecimientos algales nocivos (mareas rojas) con riesgo a la salud humana; el sistema satelital de alerta temprana de sargazo (SATsum)
                     que permitirá estimar las áreas con presencia de sargazo pelágico en la zona marino-costera de México, considerando además la relación entre su nivel de acumulación y su impacto sobre
                     las playas; y el sistema de alerta del estado de salud de los ecosistemas costeros mexicanos: Mar Caribe (CostaMEX-Caribe).<br><br>
 
