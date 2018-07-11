@@ -34,6 +34,11 @@
           v-if="alert"
         >
         <span v-else>Sin información</span>
+        <a
+          :href="`http://simar.conabio.gob.mx:4001/pdf/${data.properties.gid}/${alert.rpt}`"
+          target="_blank"
+          style="color: #fff"
+          v-if="alert">Descargar reporte</a>
       </div>
     </div>
   </div>
@@ -71,7 +76,9 @@ export default {
         if (alertFound) {
           let startDate = moment().year(alertFound.year).isoWeek(alertFound.week).startOf('isoWeek').format('DD/MMM/YYYY')
           let endDate = moment().year(alertFound.year).isoWeek(alertFound.week).endOf('isoWeek').format('DD/MMM/YYYY')
+          let rptDate = moment().year(alertFound.year).isoWeek(alertFound.week).startOf('isoWeek').format('DD/MM/YYYY')
           alertFound.period = `Del ${startDate} al ${endDate}`
+          alertFound.rpt = rptDate
         }
         return alertFound || null
       } else {

@@ -51,25 +51,31 @@
                     El SIMAR incluye herramientas interactivas para el análisis de las series de tiempo de los datos recabados mediante la implementación del sistema satelital de boyas virtuales para el monitoreo oceánico (VirtualSAT); así como los registros de monitoreo de biodiversidad obtenidos a través de ciencia ciudadana, en apoyo a gobiernos, academia y sociedad civil, para conocer y utilizar de forma sostenible la biodiversidad de los mares mexicanos.<br><br>
 
                     Los productos y sistemas operacionales que provee SIMAR traspasan las fronteras de la Zona Económica Exclusiva de México al cubrir territorios marinos de otros países de la cuenca del Mar Caribe, el Golfo de México y el Pacífico nororiental tropical (Lat. 1.0°, 33.0°; Lon. -123.0°, -59.0°), cubriendo un área de 20,489,601 km2, correspondiente a 6,401 x 3,201 píxeles (de 1-km). Las imágenes utilizada en el SIMAR se proporcionan en la proyección de mapas: WGS-84/Lat-Lon/Geográfico/Equirectangular - EPSG: 4326.<br><br>
-                    
-                    El SIMAR constituye una herramienta de apoyo a un esfuerzo regional para documentar los cambios que ocurren en la biodiversidad marina a lo largo de las costas de las Américas (Polo a Polo, desde el Ártico hasta la Patagonia y la Antártida), a través de la Red de Observación de la Biodiversidad Marina (<em>Marine Biodiversity Observation Network</em>, <a href="https://geobon.org/networks/thematic-bon/mbon/" target="_blank">MBON</a>), al integrar conocimiento y análisis. Con el SIMAR se contribuye a los objetivos de la <a href="http://home.antares.ws/" target="_blank">Red Antares</a> - ChloroGIN, integrando series de mediciones in-situ y satelitales para la detección de los cambios a largo plazo sobre los ecosistemas marinos de América. De igual forma el SIMAR permite apoyar los Objetivos de Desarrollo Sostenible (ODS) de las Naciones Unidas, particularmente el <a href="https://sustainabledevelopment.un.org/sdg14" target="_blank">SDG14</a> - Vida debajo del mar, encaminada a conservar y utilizar de forma sostenible los océanos, los mares y los recursos marinos para el desarrollo sostenible.<br><br>
-                    
-                    Como parte de la política de uso de datos de la Conabio toda la información y los análisis presentados dentro del SIMAR son libres y de uso público sin restricciones. Los productos son útiles para divulgación, docencia, investigaciones científica, ciencias aplicadas y el monitoreo de ecosistemas mediante sistemas operacionales para la toma de decisiones.<br><br>
-                    
-                    El SIMAR constituye una herramienta de análisis de la biodiversidad marina que permite estudiar los cambios en los ecosistemas marino-costeros mexicanos a corto y largo plazo y la generación de conocimiento para un manejo sustentable, en un contexto de cambio y variabilidad climática.<br><br>
 
-                    <strong>Contactos:</strong> <a
+                    El SIMAR constituye una herramienta de apoyo a un esfuerzo regional para documentar los cambios que ocurren en la biodiversidad marina a lo largo de las costas de las Américas (Polo a Polo, desde el Ártico hasta la Patagonia y la Antártida), a través de la Red de Observación de la Biodiversidad Marina (<em>Marine Biodiversity Observation Network</em>, <a
+                      href="https://geobon.org/networks/thematic-bon/mbon/"
+                      target="_blank">MBON</a>), al integrar conocimiento y análisis. Con el SIMAR se contribuye a los objetivos de la <a
+                        href="http://home.antares.ws/"
+                        target="_blank">Red Antares</a> - ChloroGIN, integrando series de mediciones in-situ y satelitales para la detección de los cambios a largo plazo sobre los ecosistemas marinos de América. De igual forma el SIMAR permite apoyar los Objetivos de Desarrollo Sostenible (ODS) de las Naciones Unidas, particularmente el <a
+                          href="https://sustainabledevelopment.un.org/sdg14"
+                          target="_blank">SDG14</a> - Vida debajo del mar, encaminada a conservar y utilizar de forma sostenible los océanos, los mares y los recursos marinos para el desarrollo sostenible.<br><br>
+
+                    Como parte de la política de uso de datos de la Conabio toda la información y los análisis presentados dentro del SIMAR son libres y de uso público sin restricciones. Los productos son útiles para divulgación, docencia, investigaciones científica, ciencias aplicadas y el monitoreo de ecosistemas mediante sistemas operacionales para la toma de decisiones.<br><br>
+
+                    El SIMAR constituye una herramienta de análisis de la biodiversidad marina que permite estudiar los cambios en los ecosistemas marino-costeros mexicanos a corto y largo plazo y la generación de conocimiento para un manejo sustentable, en un contexto de cambio y variabilidad climática.<br><br>
+                    <strong>Contactos:</strong>
+                    <a
                       href="https://simar.conabio.gob.mx"
                       target="_blank">https://simar.conabio.gob.mx</a><br>
-
                     <strong>Mares Mexicanos, Conabio:</strong> <a
                       href="http://www.biodiversidad.gob.mx/mares"
                       target="_blank">http://www.biodiversidad.gob.mx/mares</a><br>
-
                   </p>
                   <p class="quotation">
                     <strong>Referencia / <em>Citation</em></strong>:
-                    Cerdeira-Estrada, S., R. Martell-Dubois, R. Ressl, J. Valdéz. 2018. Sistema de información y análisis de ecosistemas marino de México - Information & Analysis System of Marine Ecosystem of Mexico (SIMAR). CONABIO, México. (<a href="https://simar.conabio.gob.mx" target="_blank">https://simar.conabio.gob.mx</a>).
+                    Cerdeira-Estrada, S., R. Martell-Dubois, R. Ressl, J. Valdéz. 2018. Sistema de información y análisis de ecosistemas marino de México - Information & Analysis System of Marine Ecosystem of Mexico (SIMAR). CONABIO, México. (<a
+                      href="https://simar.conabio.gob.mx"
+                      target="_blank">https://simar.conabio.gob.mx</a>).
                   </p>
                 </div>
               </div>
@@ -414,8 +420,7 @@ export default {
     }
   },
   methods: {
-    handleClick (tab, event) {
-    },
+    handleClick (tab, event) {},
     closeModal () {
       this.$emit('closeModal')
     }
@@ -430,236 +435,237 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  .modal-about {
-    width: 860px;
-    height: 608px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    z-index: 401;
-    background: $color-ui-primary-dark-alpha;
-    border: 1px solid $color-ui-primary-dark;
-    .header-modal {
-      background: $color-ui-primary-dark;
+.modal-about {
+  width: 860px;
+  height: 608px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: 401;
+  background: $color-ui-primary-dark-alpha;
+  border: 1px solid $color-ui-primary-dark;
+  .header-modal {
+    background: $color-ui-primary-dark;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    .logo-simar {
+      height: 20px;
+      margin-left: 20px;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0 20px 0 0;
       height: 50px;
-      align-items: center;
-      display: flex;
-      justify-content: space-between;
-      .logo-simar {
-        height: 20px;
+      li {
+        display: inline;
+        line-height: 50px;
         margin-left: 20px;
-      }
-      ul {
-        list-style-type: none;
-        padding: 0;
-        margin: 0 20px 0 0;
-        height: 50px;
-        li {
-          display: inline;
-          line-height: 50px;
-          margin-left: 20px;
-          i {
-            margin-top: 20px;
-          }
-          &:hover {
-            color: #23A1C8;
-            cursor: pointer;
-            border-bottom: 2px solid #23A1C8;
-            padding-bottom: 15px;
-          }
+        i {
+          margin-top: 20px;
+        }
+        &:hover {
+          color: #23a1c8;
+          cursor: pointer;
+          border-bottom: 2px solid #23a1c8;
+          padding-bottom: 15px;
         }
       }
     }
-    .left-bar{
+  }
+  .left-bar {
+    height: 160px;
+    div {
       height: 160px;
-      div{
-        height: 160px;
-        display: flex;
-        align-items: center;
-        img{
-          display: block;
-          margin: 0 auto;
-          width: 60%;
-        }
-      }
-    }
-    .quotation{
-      border-top: solid 1px #5D5D5D;
-      border-bottom: solid 1px #5D5D5D;
-      margin-top: 20px;
-      padding: 20px 0px;
-      font-size: 12px;
-    }
-  }
-
-  .modal-about{
-    .first-column {
-      padding: 20px;
-      h1 {
-        @include font-primary(25px, light);
-        color: #CCCCCC;
-        line-height: 34px;
-      }
-      p {
-        @include font-primary(18px, regular);
-        color: #CCCCCC;
-        line-height: 24px;
-      }
-    }
-  }
-
-  .second-column {
-    overflow-y: scroll;
-    padding: 20px 20px 20px 0;
-    height: 558px;
-    p {
-      @include font-primary(14px, light);
-      color: #CCCCCC;
-      margin: 0;
-    }
-  }
-
-  .logo-simar{
-    width: 161.83px;
-    height: 20px;
-    position: absolute;
-    top: 15px;
-  }
-
-  .partners {
-    background: white;
-    height: 557px;
-    width: 859px;
-    border: 1px solid #CCCCCC;
-    overflow: auto;
-  }
-
-  .colabo {
-    height: 557px;
-    width: 855px;
-  }
-
-  .logos {
-    padding: 50px;
-    text-align: center;
-    height: 100%;
-    padding-top: 25px;
-    .first-sponsor{
-      border-top: solid 1px #ccc;
-    }
-    .col-md-12{
-      padding-top: 10px;
-      border-bottom: solid 1px #ccc;
-      color: #292929;
-      text-align: left;
-      .sponsor-desc{
-        margin-top: 10px;
-      }
-    }
-    img{
-      max-height: 50px;
-      &.conabio{
-        max-width: 80px;
-      }
-    }
-    .first-logo {
-      height: 60px;
       display: flex;
-      justify-content: space-around;
       align-items: center;
-    }
-    .logo-conabio {
-      width: 130px;
-      height: 90px;
-    }
-    .logo-semarnat {
-      width: 230px;
-      height: 78px;
-    }
-    .logo-gef {
-      width: 111.22px;
-      height: 130px;
-    }
-    .logo-pnud {
-      width: 63.56px;
-      height: 150px;
-    }
-    .logo-conanp {
-      width: 118.58px;
-      height: 120px;
-    }
-    .logo-resiliencia {
-      width:221.53px;
-      height: 100px;
-    }
-    .logo-mares {
-      width: 120.81px;
-      height:120.81px;
+      img {
+        display: block;
+        margin: 0 auto;
+        width: 60%;
+      }
     }
   }
+  .quotation {
+    border-top: solid 1px #5d5d5d;
+    border-bottom: solid 1px #5d5d5d;
+    margin-top: 20px;
+    padding: 20px 0px;
+    font-size: 12px;
+  }
+}
 
-  .icon-x{
-    position: absolute;
-    left: 827px;
-    top: 17px;
-    font-size: 15.5px;
-    &:hover{
-      cursor: pointer;
+.modal-about {
+  .first-column {
+    padding: 20px;
+    h1 {
+      @include font-primary(25px, light);
+      color: #cccccc;
+      line-height: 34px;
+    }
+    p {
+      @include font-primary(18px, regular);
+      color: #cccccc;
+      line-height: 24px;
+    }
+  }
+}
+
+.second-column {
+  overflow-y: scroll;
+  padding: 20px 20px 20px 0;
+  height: 558px;
+  p {
+    @include font-primary(14px, light);
+    color: #cccccc;
+    margin: 0;
+  }
+}
+
+.logo-simar {
+  width: 161.83px;
+  height: 20px;
+  position: absolute;
+  top: 15px;
+}
+
+.partners {
+  background: white;
+  height: 557px;
+  width: 859px;
+  border: 1px solid #cccccc;
+  overflow: auto;
+}
+
+.colabo {
+  height: 557px;
+  width: 855px;
+}
+
+.logos {
+  padding: 50px;
+  text-align: center;
+  height: 100%;
+  padding-top: 25px;
+  .first-sponsor {
+    border-top: solid 1px #ccc;
+  }
+  .col-md-12 {
+    padding-top: 10px;
+    border-bottom: solid 1px #ccc;
+    color: #292929;
+    text-align: left;
+    .sponsor-desc {
+      margin-top: 10px;
+    }
+  }
+  img {
+    max-height: 50px;
+    &.conabio {
+      max-width: 80px;
+    }
+  }
+  .first-logo {
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .logo-conabio {
+    width: 130px;
+    height: 90px;
+  }
+  .logo-semarnat {
+    width: 230px;
+    height: 78px;
+  }
+  .logo-gef {
+    width: 111.22px;
+    height: 130px;
+  }
+  .logo-pnud {
+    width: 63.56px;
+    height: 150px;
+  }
+  .logo-conanp {
+    width: 118.58px;
+    height: 120px;
+  }
+  .logo-resiliencia {
+    width: 221.53px;
+    height: 100px;
+  }
+  .logo-mares {
+    width: 120.81px;
+    height: 120.81px;
+  }
+}
+
+.icon-x {
+  position: absolute;
+  left: 827px;
+  top: 17px;
+  font-size: 15.5px;
+  &:hover {
+    cursor: pointer;
+    color: white;
+  }
+}
+.credits {
+  overflow-y: scroll;
+  height: 557px;
+  width: 855px;
+  padding: 15px 60px;
+  .credits-data {
+    h1 {
+      @include font-primary(28px, light);
+      color: #cccccc;
+      margin-bottom: 30px;
+    }
+  }
+  .data {
+    padding: 15px 15px 0px 0px;
+    width: 50%;
+    margin-bottom: 20px;
+    h2 {
+      @include font-primary(14px, regular);
       color: white;
     }
-  }
-  .credits{
-    overflow-y: scroll;
-    height: 557px;
-    width: 855px;
-    padding: 15px 60px;
-    .credits-data{
-      h1{
-        @include font-primary(28px, light);
-        color: #CCCCCC;
-        margin-bottom: 30px;
-      }
+    h3 {
+      @include font-primary(12px, regular);
+      color: #cccccc;
     }
-    .data{
-      padding: 15px 15px 0px 0px;
-      width: 50%;
-      margin-bottom: 20px;
-      h2{
-        @include font-primary(14px, regular);
-        color: white;
-      }
-      h3{
-        @include font-primary(12px, regular);
-        color: #CCCCCC;
-      }
-    }
-    .title-colab{
-    font-size: 13.5px}
   }
-  .colabs-logos{
-    background: white;
-    width: 100%;
-    margin-bottom: 30px;
-    .colabs-logos-inner{
-      text-align: center;
-      padding: 20px 0;
-      border-bottom: 1px solid #000000;
-      &:first-child{
-        border-top: 1px solid #000000;
-      }
-      img{
-        max-height: 70px;
-        margin: 0 10px;
-      }
-      &:nth-child(1){
-        img:nth-child(1), img:nth-child(2){
-          max-height: 50px;
-        }
+  .title-colab {
+    font-size: 13.5px;
+  }
+}
+.colabs-logos {
+  background: white;
+  width: 100%;
+  margin-bottom: 30px;
+  .colabs-logos-inner {
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #000000;
+    &:first-child {
+      border-top: 1px solid #000000;
+    }
+    img {
+      max-height: 70px;
+      margin: 0 10px;
+    }
+    &:nth-child(1) {
+      img:nth-child(1),
+      img:nth-child(2) {
+        max-height: 50px;
       }
     }
   }
-
+}
 </style>
