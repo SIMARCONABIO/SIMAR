@@ -54,3 +54,6 @@ npm run e2e
 npm test
 ```
 
+## Dependencias externas
+
+El visualizador SIMAR depende de la funcionalidad de su API, para una consulta detallada de la documentación de la API favor de referirse a [https://simar.conabio.gob.mx/docs](https://simar.conabio.gob.mx/docs). Al momento de escribir este documento la API se encuentra funcionando en la siguiente URL [https://simar.conabio.gob.mx/api/v1/](https://simar.conabio.gob.mx/api/v1/).

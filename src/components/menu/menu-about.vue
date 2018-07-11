@@ -40,53 +40,36 @@
                 </div>
                 <div class="col-8 second-column">
                   <p>
-                    El sistema de información y análisis de ecosistemas marino de México (SIMAR) es un desarrollo tecnológico de la Comisión Nacional para el Conocimiento
-                    y Uso de la Biodiversidad de México (CONABIO). Está diseñado sobre la base de una plataforma web on-line interactiva que integra y visualiza datos in-situ
-                    (a través del sistema in-situ de monitoreo oceánico, SIDMO), de diversas instituciones que realizan labor de monitoreo marino-costero, y productos satelitales de temperatura
-                    y color del océano (a través del sistema satelital de monitoreo oceánico, SATMO). De ambos módulos se derivan sistemas operacionales de evaluación de ecosistemas y
-                    alertas tempranas para la toma de decisiones, como instrumentos para la conservación y uso sostenible de la biodiversidad (ej. en áreas naturales protegidas marinas).
-                    Constituye una herramienta de análisis de la biodiversidad marina que permite estudiar los cambios en los ecosistemas marino-costeros mexicanos a corto y largo plazo y la generación de
-                    conocimiento para un manejo sustentable, en un contexto de cambio y variabilidad climática.<br><br>
+                    El acelerado incremento de la información y el conocimiento sobre el medio marino y la falta de su integración a sistemas operacionales para la toma de decisiones, impulsaron la creación de este sistema de información y análisis de ecosistemas marino de México (SIMAR).<br><br>
 
-                    Uno de los primeros desarrollos operacionales incluidos en SIMAR es el sistema satelital de alerta temprana de blanqueamiento de corales (SATcoral)
-                    el cual genera alertas semanales del estrés térmico en los corales, a partir de imágenes de temperatura nocturna del mar, estimadas por sensores satelitales de NASA y NOAA a 1-km
-                    de resolución espacial. El algoritmo de detección este sistema se basa en la metodología propuesta por NOAA Coral Reef Watch para productos con resolución de 5-km.<br><br>
+                    Esta nueva plataforma web on-line interactiva es un desarrollo tecnológico de la CONABIO, que integra y visualiza datos in-situ (a través del sistema in-situ de monitoreo oceánico, SIDMO), de diversas instituciones que realizan labor de monitoreo marino-costero, y productos satelitales de temperatura y color del océano (a través del sistema satelital de monitoreo oceánico, SATMO). De ambos módulos se derivan sistemas operacionales de evaluación de ecosistemas y alertas tempranas para la toma de decisiones, como instrumentos para la conservación y uso sostenible de la biodiversidad (ej. en áreas naturales protegidas marinas).<br><br>
 
-                    Actualmente se encuentran en desarrollo dentro de SIMAR los siguientes módulos operacionales: sistema satelital de alerta temprana de florecimientos algales (SATfa),
-                    para estudiar la posible ocurrencia de florecimientos algales nocivos (mareas rojas) con riesgo a la salud humana; el sistema satelital de alerta temprana de sargazo (SATsum)
-                    que permitirá estimar las áreas con presencia de sargazo pelágico en la zona marino-costera de México, considerando además la relación entre su nivel de acumulación y su impacto sobre
-                    las playas; y el sistema de alerta del estado de salud de los ecosistemas costeros mexicanos: Mar Caribe (CostaMEX-Caribe).<br><br>
+                    Entre los sistemas operacionales desarrollados dentro del SIMAR actualmente activos se encuentra el sistema satelital de alerta temprana de blanqueamiento de corales (SATcoral) el cual genera alertas semanales del estrés térmico en los corales, a partir de imágenes de temperatura superficial nocturna del mar estimadas por sensores satelitales de NASA y NOAA (a 1-km). El algoritmo de detección del SATcoral se basa en la metodología propuesta por el CRW-NOAA (5-km).<br><br>
 
-                    SIMAR incluye herramientas interactivas para el análisis de las series de tiempo de los datos recabados mediante la implementación del sistema satelital de boyas virtuales para el monitoreo
-                    oceánico (VirtualSAT); así como los registros de monitoreo de biodiversidad obtenidos a través de ciencia ciudadana, en apoyo a gobiernos, academia y sociedad civil,
-                    para conocer y utilizar de forma sostenible la biodiversidad de los mares mexicanos.<br><br>
+                    Actualmente se encuentran en desarrollo dentro del SIMAR los siguientes módulos operacionales: el sistema satelital de alerta temprana de florecimientos algales (SATfa), para estudiar la posible ocurrencia de florecimientos algales nocivos (mareas rojas) con riesgo a la salud humana; el sistema satelital de alerta temprana de sargazo (SATsum) que permitirá estimar las áreas con presencia de sargazo pelágico en la zona marino-costera de México, considerando además la relación entre su nivel de acumulación y su impacto sobre las playas; y el sistema de alerta del estado de salud de los ecosistemas costeros mexicanos: Mar Caribe (CostaMEX-Caribe).<br><br>
 
-                    Los productos y sistemas operacionales que provee SIMAR traspasan las fronteras de la Zona Económica Exclusiva de México al alcanzar territorios marinos de otros países de la cuenca del Mar
-                    Caribe, el Golfo de México y el Pacífico Tropical. Con ellos trabajaremos para apoyar un esfuerzo regional para documentar los cambios que están ocurriendo en la biodiversidad marina a lo
-                    largo de las costa de América, a través de la La Red de Observación de la Biodiversidad Marina Polo a Polo de las Américas (P2P-MBON), al integrar conocimiento y análisis.<br><br>
+                    El SIMAR incluye herramientas interactivas para el análisis de las series de tiempo de los datos recabados mediante la implementación del sistema satelital de boyas virtuales para el monitoreo oceánico (VirtualSAT); así como los registros de monitoreo de biodiversidad obtenidos a través de ciencia ciudadana, en apoyo a gobiernos, academia y sociedad civil, para conocer y utilizar de forma sostenible la biodiversidad de los mares mexicanos.<br><br>
 
-                    Las imágenes en SIMAR se proporcionan en la proyección de mapas: WGS-84/Lat-Lon/ Geográfico/Equirectangular - EPSG: 4326 y abarcan el Golfo de México, el Mar Caribe y parte del Pacífico
-                    nor-oriental (Lat. 1.0°, 33.0°; Lon. -123.0°, -59.0°), cubriendo un área de 20,489,601 km2 correspondiente a 6401 x 3201 píxeles, de 1-km de resolución espacial.<br><br>
+                    Los productos y sistemas operacionales que provee SIMAR traspasan las fronteras de la Zona Económica Exclusiva de México al cubrir territorios marinos de otros países de la cuenca del Mar Caribe, el Golfo de México y el Pacífico nororiental tropical (Lat. 1.0°, 33.0°; Lon. -123.0°, -59.0°), cubriendo un área de 20,489,601 km2, correspondiente a 6,401 x 3,201 píxeles (de 1-km). Las imágenes utilizada en el SIMAR se proporcionan en la proyección de mapas: WGS-84/Lat-Lon/Geográfico/Equirectangular - EPSG: 4326.<br><br>
+                    
+                    El SIMAR constituye una herramienta de apoyo a un esfuerzo regional para documentar los cambios que ocurren en la biodiversidad marina a lo largo de las costas de las Américas (Polo a Polo, desde el Ártico hasta la Patagonia y la Antártida), a través de la Red de Observación de la Biodiversidad Marina (<em>Marine Biodiversity Observation Network</em>, <a href="https://geobon.org/networks/thematic-bon/mbon/" target="_blank">MBON</a>), al integrar conocimiento y análisis. Con el SIMAR se contribuye a los objetivos de la <a href="http://home.antares.ws/" target="_blank">Red Antares</a> - ChloroGIN, integrando series de mediciones in-situ y satelitales para la detección de los cambios a largo plazo sobre los ecosistemas marinos de América. De igual forma el SIMAR permite apoyar los Objetivos de Desarrollo Sostenible (ODS) de las Naciones Unidas, particularmente el <a href="https://sustainabledevelopment.un.org/sdg14" target="_blank">SDG14</a> - Vida debajo del mar, encaminada a conservar y utilizar de forma sostenible los océanos, los mares y los recursos marinos para el desarrollo sostenible.<br><br>
+                    
+                    Como parte de la política de uso de datos de la Conabio toda la información y los análisis presentados dentro del SIMAR son libres y de uso público sin restricciones. Los productos son útiles para divulgación, docencia, investigaciones científica, ciencias aplicadas y el monitoreo de ecosistemas mediante sistemas operacionales para la toma de decisiones.<br><br>
+                    
+                    El SIMAR constituye una herramienta de análisis de la biodiversidad marina que permite estudiar los cambios en los ecosistemas marino-costeros mexicanos a corto y largo plazo y la generación de conocimiento para un manejo sustentable, en un contexto de cambio y variabilidad climática.<br><br>
 
-                    Como parte de la política de uso de datos de la Conabio toda la información y los análisis presentados dentro de SIMAR son libres y de uso público sin restricciones.
-                    Se trabaja para que próximamente todos los datos que se presentan en SIMAR puedan ser descargados por cualquier usuario.<br><br>
-
-                    Los productos de SIMAR son útiles para divulgación, docencia, investigaciones científica, ciencias aplicadas y el monitoreo de ecosistemas
-                    mediante sistemas operacionales para la toma de decisiones.<br><br>
-
-                    SIMAR es accesible tanto desde [<a
+                    <strong>Contactos:</strong> <a
                       href="https://simar.conabio.gob.mx"
-                      target="_blank">https://simar.conabio.gob.mx</a>], como desde el sitio web Mares Mexicanos-Conabio [<a
-                        href="http://www.biodiversidad.gob.mx/mares"
-                        target="_blank">http://www.biodiversidad.gob.mx/mares</a>].<br><br>
+                      target="_blank">https://simar.conabio.gob.mx</a><br>
 
-                    Para dudas, sugerencias o comentarios, puede contactarnos a través del email: <a href="mailto:simar@conabio.gob.mx">simar@conabio.gob.mx</a>
+                    <strong>Mares Mexicanos, Conabio:</strong> <a
+                      href="http://www.biodiversidad.gob.mx/mares"
+                      target="_blank">http://www.biodiversidad.gob.mx/mares</a><br>
 
                   </p>
                   <p class="quotation">
-                    Forma de citar:
-                    Cerdeira-Estrada, S., R. Martell-Dubois, R. Ressl, J. Valdéz. 2018. Sistema de información y análisis de ecosistemas marino de México -
-                    Information & Analysis System of Marine Ecosystem of Mexico (SIMAR). CONABIO, México. Dataset accessed [2018-06-1] at simar.conabio.gob.mx.
+                    <strong>Referencia / <em>Citation</em></strong>:
+                    Cerdeira-Estrada, S., R. Martell-Dubois, R. Ressl, J. Valdéz. 2018. Sistema de información y análisis de ecosistemas marino de México - Information & Analysis System of Marine Ecosystem of Mexico (SIMAR). CONABIO, México. (<a href="https://simar.conabio.gob.mx" target="_blank">https://simar.conabio.gob.mx</a>).
                   </p>
                 </div>
               </div>
