@@ -116,7 +116,7 @@
                     </div>
                     <div class="data">
                       <span class="title-colab">Ing. <b>Jaime E. Valdéz</b></span><br>
-                      Programador - SIMAR<br>
+                      Especialista en Geocomputación<br>
                       Subcoordinación de Monitoreo Marino, CONABIO, México<br>
                       <a href="mailto:jvaldezch@gmail.com">jvaldezch@gmail.com</a>
                     </div>
@@ -137,7 +137,7 @@
                       <span class="title-colab">Dra. <b>Susana Perera Valderrama</b></span><br>
                       Especialista en Monitoreo Marino<br>
                       Subcoordinación de Monitoreo Marino, CONABIO, México<br>
-                      <a href="mailto:sperera@conabio.gob.mx">sperera@conabio.gob.mx</a>  |  Tel. (55) 5004.4987
+                      <a href="https://www.researchgate.net/profile/Jorge_Zavala-Hidalgo">Researchgate</a>
                     </div>
                     <div class="data">
                       <span class="title-colab">Dr. <b>Jorge Zavala-Hidalgo</b></span><br>
@@ -152,9 +152,6 @@
                       <span class="title-colab">M.C. <b>Laura Olivia Rosique de la Cruz</b></span><br>
                       Especialista en Monitoreo Marino<br>
                       Subcoordinación de Monitoreo Marino, CONABIO, México<br>
-                      <a
-                        href="mailto:lrosique@conabio.gob.mx"
-                        target="_blank">lrosique@conabio.gob.mx</a>  |  Tel. (55) 5004.4987
                     </div>
                     <div class="data">
                       <span class="title-colab">Dr. <b>Ismael Mariño-Tapia</b></span><br>
