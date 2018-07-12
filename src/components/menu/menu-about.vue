@@ -365,9 +365,9 @@
                       class="conabio"
                       src='static/images/logo-conabio-red-title.svg'>
                     <img src='@/assets/modal-images/colabs/logo-conanp-grises.png'>
-                    <img src='@/assets/modal-images/patrocinadores/Short-GEF-logo-colored-NOTAG-transparent.png'>
-                    <img src='@/assets/modal-images/patrocinadores/PNUD_Logo-azul-tagline-negro.png'>
-                    <img src='@/assets/modal-images/patrocinadores/Resiliencia.png'>
+                    <img src='@/assets/modal-images/Patrocinadores/Short-GEF-logo-colored-NOTAG-transparent.png'>
+                    <img src='@/assets/modal-images/Patrocinadores/PNUD_Logo-azul-tagline-negro.png'>
+                    <img src='@/assets/modal-images/Patrocinadores/Resiliencia.png'>
 
                     <p class="sponsor-desc"><b>Proyecto GEF-5 Resiliencia</b>. CONANP-PNUD-CONABIO: Fortalecimiento de la efectividad del manejo y la resiliencia
                     de las áreas naturales protegidas para proteger la biodiversidad amenazada por el cambio climático. México. 2016-2019</p>
@@ -386,9 +386,9 @@
                     <img
                       class="conabio"
                       src='static/images/logo-conabio-red-title.svg'>
-                    <img src='@/assets/modal-images/patrocinadores/Short-GEF-logo-colored-NOTAG-transparent.png'>
-                    <img src='@/assets/modal-images/patrocinadores/onu-pnuma_trans.gif'>
-                    <img src='@/assets/modal-images/patrocinadores/NOAA.png'>
+                    <img src='@/assets/modal-images/Patrocinadores/Short-GEF-logo-colored-NOTAG-transparent.png'>
+                    <img src='@/assets/modal-images/Patrocinadores/onu-pnuma_trans.gif'>
+                    <img src='@/assets/modal-images/Patrocinadores/NOAA.png'>
 
                     <p class="sponsor-desc"><b>Proyecto GEF-6 Gran Ecosistema Marino del Golfo de México GoMx-LME</b>. CONABIO - SEMARNAT - PNUMA - NOAA.
                     Implementation of the Strategic Action Program of the Gulf of Mexico Large Marine Ecosystem. 2018-2022
