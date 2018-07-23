@@ -35,10 +35,10 @@
         >
         <span v-else>Sin información</span>
         <a
-          :href="`http://simar.conabio.gob.mx:4001/pdf/${data.properties.gid}/${alert.rpt}`"
+          :href="`https://simar.conabio.gob.mx:8443/default/pdf/alerta?anp=${data.properties.gid}&year=${alert.year}&week=${alert.week}`"
           target="_blank"
           style="color: #fff"
-          v-if="alert">Descargar reporte</a>
+          v-if="alert">Reporte semanal - SATcoral (descargar PDF)</a>
       </div>
     </div>
   </div>
