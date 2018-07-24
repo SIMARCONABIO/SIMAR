@@ -140,7 +140,14 @@ const options = {
       })
     },
     getPolygons ({state, rootState, commit, dispatch, getters, rootGetters}, payload) {
-      return http.get('polygons/geojson').then(response => {
+      var params = {}
+      params.zoom = payload.getZoom()
+      params.east = payload.getBounds().getEast()
+      params.west = payload.getBounds().getWest()
+      params.south = payload.getBounds().getSouth()
+      params.north = payload.getBounds().getNorth()
+      let urlParameters = Object.entries(params).map(e => e.join('=')).join('&')
+      return http.get('polygons/geojson?' + urlParameters).then(response => {
         commit('polygons', response.data)
       })
     },

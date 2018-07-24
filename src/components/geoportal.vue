@@ -179,7 +179,7 @@ export default {
         style (feature) {
           return {
             color: '#23A1C8',
-            fillOpacity: 0.6
+            fillOpacity: 0.5
           }
         }
       },
@@ -188,7 +188,7 @@ export default {
         style (feature) {
           return {
             color: '#999999',
-            fillOpacity: 0.6
+            fillOpacity: 0.5
           }
         }
       },
@@ -348,7 +348,7 @@ export default {
         this.getBuoys()
       }
       if (layer.composition === 'polygons') {
-        this.getPolygons()
+        this.getPolygons(this.$refs.map.mapObject)
       }
       if (layer.composition === 'polygons-alert') {
         this.getPolygonsAlert()

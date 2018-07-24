@@ -130,6 +130,9 @@
   </div>
 </template>
 
+////////////////////////////////////////////
+//                                  SCRIPT
+////////////////////////////////////////////
 <script>
 import CategoryIdentifier from '@/components/_shared/category-identifier'
 
@@ -214,14 +217,19 @@ export default {
     focusCatalogItem (catalogItem, id, index) {
       this.catalogItem = catalogItem
 
-      this.activeIdSubLayer = id
-      if (id === this.activeIdSubLayer) {
-        this.activeBorderSubLayer[index].active = true
+      if (id !== undefined) {
+        this.activeIdSubLayer = id
+        if (id === this.activeIdSubLayer) {
+          this.activeBorderSubLayer[index].active = true
+        }
       }
 
       for (var i = 0; i < this.activeBorderSubLayer.length; i++) {
-        if (this.showCatalogs[i].id !== id) {
-          this.activeBorderSubLayer[i].active = false
+        var catg = this.showCatalogs[i]
+        if (catg && catg['id']) {
+          if (this.showCatalogs[i].id !== id) {
+            this.activeBorderSubLayer[i].active = false
+          }
         }
       }
     },
