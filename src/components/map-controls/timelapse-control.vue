@@ -30,6 +30,14 @@
           :key="index">
           <div class="layer-name">{{ layer.spanishTitle }}</div>
           <div
+            v-if="layer.rid !== undefined">
+            Descargar en formato: <a
+            :href="`https://simar.conabio.gob.mx:8443/default/descargar/?rid=${layer.rid}&product=gtiff`">GTiff</a>, <a
+            :href="`https://simar.conabio.gob.mx:8443/default/descargar/?rid=${layer.rid}&product=png`">PNG</a>, <a
+              :href="`https://simar.conabio.gob.mx:8443/default/descargar/?rid=${layer.rid}&product=kmz`">KMZ</a>
+          </div>
+          <br><br>
+          <div
             class="layer-time-info d-flex justify-content-between"
             v-if="layer.type === 'product'">
             <span>{{ layer.productStartDate|layerDate(layer.productEndDate) }}</span> <span v-if="layer.week">Semana {{ layer.week }}</span>
