@@ -40,6 +40,15 @@
             class="conabio-menu-logo">
         </a>
       </li>
+      <li>
+        <a
+          href="https://simar.conabio.gob.mx:8443/"
+          target="_blank"
+          style="color: white"
+          title="Ir a la página del administrador de SIMAR">
+          Administrador SIMAR
+        </a>
+      </li>
     </ul>
     <div
       class="menu-button-container"

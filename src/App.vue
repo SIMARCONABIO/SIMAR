@@ -15,7 +15,7 @@
           <button
             @click="goToGeoportal"
             class="btn-confirmation">OK</button>
-          <p class="s-text-4">Versión en desarrollo</p>
+          <p class="s-text-4">SIMAR se encuentra en fase de desarrollo: para contar con la versión más reciente actualice la página utilizando Ctrl + F5 en su teclado.</p>
         </span>
       </div>
     </transition>

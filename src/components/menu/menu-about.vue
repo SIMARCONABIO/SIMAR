@@ -269,69 +269,134 @@
                   class="colabs-logos"
                 >
                   <div class="colabs-logos-inner">
-                    <img
-                      src="@/assets/modal-images/colabs/logo-conanp-grises.png"
-                      alt="">
-                    <img
-                      src="@/assets/modal-images/colabs/logoINECC.png"
-                      alt="">
-                    <img
-                      src="@/assets/modal-images/colabs/UNAM.png"
-                      alt="">
-                    <img
-                      src="@/assets/modal-images/colabs/cinvestav-merida-yucatan.png"
-                      alt="">
-                    <img
-                      src="@/assets/modal-images/colabs/SEMAR_logo_2012.svg.png"
-                      alt="">
+                    <a
+                      href="https://www.gob.mx/conanp"
+                      target="_blank">
+                      <img
+                        src="@/assets/modal-images/colabs/logo-conanp-grises.png"
+                        alt="Comisión Nacional de Áreas Naturales Protegidas"></a>
+                    <a
+                      href="https://www.gob.mx/inecc"
+                      target="_blank">
+                      <img
+                        src="@/assets/modal-images/colabs/logoINECC.png"
+                        alt="Instituto Nacional de Ecología y Cambio Climático"></a>
+                    <a
+                      href="https://www.unam.mx/"
+                      target="_blank">
+                      <img
+                        src="@/assets/modal-images/colabs/UNAM.png"
+                        alt="Universidad Nacional Autónoma de México"></a>
+                    <a
+                      href="http://www.mda.cinvestav.mx/"
+                      target="_blank">
+                      <img
+                        src="@/assets/modal-images/colabs/cinvestav-merida-yucatan.png"
+                        alt="CINVESTAV Unidad Mérida"></a>
+                    <a
+                      href="https://www.gob.mx/semar"
+                      target="_blank">
+                      <img
+                        src="@/assets/modal-images/colabs/SEMAR_logo_2012.svg.png"
+                        alt="Secretaría de Marina"></a>
                   </div>
                   <div class="colabs-logos-inner">
-                    <img
-                      src="@/assets/modal-images/colabs/geobon.jpg"
-                      alt="">
-                    <img
-                      src="@/assets/modal-images/colabs/mbon.jpg"
-                      alt="">
-                    <img
-                      src="@/assets/modal-images/colabs/amerigeoss_800.png"
-                      alt="">
-                    <img
-                      src="@/assets/modal-images/colabs/pogo1.png"
-                      alt="">
+                    <a
+                      href="https://geobon.org/"
+                      target="_blank">
+                      <img
+                        src="@/assets/modal-images/colabs/geobon.jpg"
+                        alt="Group On Earth Observations Biodiversity Observation Network"></a>
+                    <a
+                      href="http://www.marinebon.org/"
+                      target="_blank">
+                      <img
+                        src="@/assets/modal-images/colabs/mbon.jpg"
+                        alt="U.S. Marine Biodiversity Observation Network"></a>
+                    <a
+                      href="https://www.amerigeoss.org/"
+                      target="_blank">
+                      <img
+                        src="@/assets/modal-images/colabs/amerigeoss_800.png"
+                        alt="AmeriGEOSS"></a>
+                    <a
+                      href="http://ocean-partners.org/"
+                      target="_blank">
+                      <img
+                        src="@/assets/modal-images/colabs/pogo1.png"
+                        alt="Partnership for Observation of the Global Ocean"></a>
                   </div>
                   <div class="colabs-logos-inner">
-                    <img
-                      src="@/assets/modal-images/colabs/Antares.jpeg"
-                      alt="">
-                    <img
-                      src="@/assets/modal-images/colabs/1200px-NOAA_logo.svg.png"
-                      alt="">
-                    <img
-                      src="@/assets/modal-images/colabs/1200px-NASA_logo.svg.png"
-                      alt="">
-                    <img
-                      src="@/assets/modal-images/colabs/Logo_OBIS.png"
-                      alt="">
-                    <img
-                      src="@/assets/modal-images/colabs/cemie-oceano.jpg"
-                      alt="">
+                    <a
+                      href="http://www.antares.ws/?p=homea.html#"
+                      target="_blank">
+                      <img
+                        src="@/assets/modal-images/colabs/Antares.jpeg"
+                        alt="Welcome to Antares Network Home page"></a>
+                    <a
+                      href="https://www.noaa.gov/"
+                      target="_blank">
+                      <img
+                        src="@/assets/modal-images/colabs/1200px-NOAA_logo.svg.png"
+                        alt="National Oceanic and Atmospheric Administration"></a>
+                    <a
+                      href="https://www.nasa.gov/"
+                      target="_blank">
+                      <img
+                        src="@/assets/modal-images/colabs/1200px-NASA_logo.svg.png"
+                        alt="National Aeronautics and Space Administration"></a>
+                    <a
+                      href="http://iobis.org/"
+                      target="_blank">
+                      <img
+                        src="@/assets/modal-images/colabs/Logo_OBIS.png"
+                        alt="Ocean Biogeographic Information System"></a>
+                    <a
+                      href="https://cemieoceano.mx/"
+                      target="_blank">
+                      <img
+                        src="@/assets/modal-images/colabs/cemie-oceano.jpg"
+                        alt="Centro Mexicano de Innovación en Energía Océano"
+                        style="width: 100px"></a>
+                    <a
+                      href="https://www.oceanfdn.org/"
+                      target="_blank">
+                      <img
+                        src="@/assets/modal-images/colabs/tof.jpg"
+                        alt="The Ocean Foundation"
+                        style="width: 120px"></a>
                   </div>
                   <div class="colabs-logos-inner">
-                    <img
-                      src="@/assets/modal-images/colabs/LogoCEA_Akumal.png"
-                      alt="">
-                    <img
-                      src="@/assets/modal-images/colabs/Healthy_Reefs.jpg"
-                      alt="">
-                    <img
-                      src="@/assets/modal-images/colabs/logo_cobi_2017.ai-9.png"
-                      alt="">
-                    <img
-                      src="@/assets/modal-images/colabs/marti-logo.jpg"
-                      alt="">
-                    <img
-                      src="@/assets/modal-images/colabs/LOGO-ASK-esp.jpg"
-                      alt="">
+                    <a
+                      href="https://www.ceakumal.org/"
+                      target="_blank">
+                      <img
+                        src="@/assets/modal-images/colabs/LogoCEA_Akumal.png"
+                        alt="Centro Ecologico Akumal, Quintana Roo Mexico"></a>
+                    <a
+                      href="http://www.healthyreefs.org/cms/"
+                      target="_blank">
+                      <img
+                        src="@/assets/modal-images/colabs/Healthy_Reefs.jpg"
+                        alt="Healthy Reefs"></a>
+                    <a
+                      href="http://cobi.org.mx/"
+                      target="_blank">
+                      <img
+                        src="@/assets/modal-images/colabs/logo_cobi_2017.ai-9.png"
+                        alt="Comunidad y Biodiversidad A.C."></a>
+                    <a
+                      href="https://mesoamericanreef.org/es/"
+                      target="_blank">
+                      <img
+                        src="@/assets/modal-images/colabs/marti-logo.jpg"
+                        alt="MesoAmerican Reef Tourism Initiative"></a>
+                    <a
+                      href="https://www.amigosdesiankaan.org/"
+                      target="_blank">
+                      <img
+                        src="@/assets/modal-images/colabs/LOGO-ASK-esp.jpg"
+                        alt="Amigos de Sian Ka'an"></a>
                   </div>
 
                 </div>
