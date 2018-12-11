@@ -26,7 +26,7 @@
                       class="col-md-12">
                       <img
                         style="margin-top: -20px"
-                        src='@/assets/modal-images/LOGO---CONABIO.png'
+                        src='@/assets/modal-images/LOGO--CONABIO.png'
                         class="img img-responsive">
                     </div>
                     <div
@@ -413,7 +413,7 @@
                     class="col-md-12 first-sponsor">
                     <img
                       class="conabio"
-                      src='static/images/logo-conabio-red-title.svg'>
+                      src='static/images/CONABIO.svg'>
                     <p class="sponsor-desc"><b>Nacional Financiera Fideicomiso Fondo para la Biodiversidad</b> - CONABIO. México. 2009-2019</p>
                   </div>
 
@@ -428,7 +428,7 @@
                     <img src='@/assets/logo-semarnat.png'>
                     <img
                       class="conabio"
-                      src='static/images/logo-conabio-red-title.svg'>
+                      src='static/images/CONABIO.svg'>
                     <img src='@/assets/modal-images/colabs/logo-conanp-grises.png'>
                     <img src='@/assets/modal-images/Patrocinadores/Short-GEF-logo-colored-NOTAG-transparent.png'>
                     <img src='@/assets/modal-images/Patrocinadores/PNUD_Logo-azul-tagline-negro.png'>
@@ -450,7 +450,7 @@
                     <img src='@/assets/logo-semarnat.png'>
                     <img
                       class="conabio"
-                      src='static/images/logo-conabio-red-title.svg'>
+                      src='static/images/CONABIO.svg'>
                     <img src='@/assets/modal-images/Patrocinadores/Short-GEF-logo-colored-NOTAG-transparent.png'>
                     <img src='@/assets/modal-images/Patrocinadores/onu-pnuma_trans.gif'>
                     <img src='@/assets/modal-images/Patrocinadores/NOAA.png'>
@@ -629,7 +629,7 @@ export default {
   img {
     max-height: 50px;
     &.conabio {
-      max-width: 80px;
+      max-width: 120px;
     }
   }
   .first-logo {
