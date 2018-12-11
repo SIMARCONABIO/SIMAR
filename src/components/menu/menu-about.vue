@@ -419,13 +419,13 @@
 
                   <div
                     class="col-md-12">
-                    <img src='@/assets/logo-semarnat.png'>
+                    <img src='@/assets/semarnat_n.jpg'>
                     <p class="sponsor-desc"><b>Secretaría de Medio Ambiente y Recursos Naturales</b> (SEMARNAT). México. 2015-2019</p>
                   </div>
 
                   <div
                     class="col-md-12">
-                    <img src='@/assets/logo-semarnat.png'>
+                    <img src='@/assets/semarnat_n.jpg'>
                     <img
                       class="conabio"
                       src='static/images/CONABIO.svg'>
@@ -447,7 +447,7 @@
 
                   <div
                     class="col-md-12">
-                    <img src='@/assets/logo-semarnat.png'>
+                    <img src='@/assets/semarnat_n.jpg'>
                     <img
                       class="conabio"
                       src='static/images/CONABIO.svg'>
