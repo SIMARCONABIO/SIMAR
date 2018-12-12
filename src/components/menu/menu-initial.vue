@@ -35,7 +35,7 @@
           href="https://www.gob.mx/conabio"
           target="_blank">
           <img
-            src="/static/images/logo-conabio-white.svg"
+            src="/static/images/CONABIO_w.png"
             alt=""
             class="conabio-menu-logo">
         </a>
@@ -158,7 +158,7 @@ export default {
       width: 125px;
     }
     .conabio-menu-logo {
-      width: 110px;
+      width: 180px;
     }
   }
 
