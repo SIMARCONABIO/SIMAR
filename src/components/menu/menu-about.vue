@@ -411,28 +411,60 @@
 
                   <div
                     class="col-md-12 first-sponsor">
-                    <img
-                      class="conabio"
-                      src='static/images/CONABIO.svg'>
+                    <a
+                      href="https://www.gob.mx/conabio"
+                      target="_blank">
+                      <img
+                        class="conabio"
+                        src='static/images/CONABIO.svg'>
+                    </a>
                     <p class="sponsor-desc"><b>Nacional Financiera Fideicomiso Fondo para la Biodiversidad</b> - CONABIO. México. 2009-2019</p>
                   </div>
 
                   <div
                     class="col-md-12">
-                    <img src='@/assets/semarnat_n.jpg'>
+                    <a
+                      href="https://www.gob.mx/semarnat"
+                      target="_blank">
+                      <img src='@/assets/semarnat_n.png'>
+                    </a>
                     <p class="sponsor-desc"><b>Secretaría de Medio Ambiente y Recursos Naturales</b> (SEMARNAT). México. 2015-2019</p>
                   </div>
 
                   <div
                     class="col-md-12">
-                    <img src='@/assets/semarnat_n.jpg'>
-                    <img
-                      class="conabio"
-                      src='static/images/CONABIO.svg'>
-                    <img src='@/assets/modal-images/colabs/logo-conanp-grises.png'>
-                    <img src='@/assets/modal-images/Patrocinadores/Short-GEF-logo-colored-NOTAG-transparent.png'>
-                    <img src='@/assets/modal-images/Patrocinadores/PNUD_Logo-azul-tagline-negro.png'>
-                    <img src='@/assets/modal-images/Patrocinadores/Resiliencia.png'>
+                    <a
+                      href="https://www.gob.mx/semarnat"
+                      target="_blank">
+                      <img src='@/assets/semarnat_n.png'>
+                    </a>
+                    <a
+                      href="https://www.gob.mx/conabio"
+                      target="_blank">
+                      <img
+                        class="conabio"
+                        src='static/images/CONABIO.svg'>
+                    </a>
+                    <a
+                      href="https://www.gob.mx/conanp"
+                      target="_blank">
+                      <img src='@/assets/modal-images/colabs/logo-conanp-grises.png'>
+                    </a>
+                    <a
+                      href="https://www.thegef.org/content/gef-logo"
+                      target="_blank">
+                      <img src='@/assets/modal-images/Patrocinadores/Short-GEF-logo-colored-NOTAG-transparent.png'>
+                    </a>
+                    <a
+                      href="http://www.undp.org/content/undp/es/home.html"
+                      target="_blank">
+                      <img src='@/assets/modal-images/Patrocinadores/PNUD_Logo-azul-tagline-negro.png'>
+                    </a>
+                    <a
+                      href="http://resilienciamexico.com/"
+                      target="_blank">
+                      <img src='@/assets/modal-images/Patrocinadores/Resiliencia.png'>
+                    </a>
 
                     <p class="sponsor-desc"><b>Proyecto GEF-5 Resiliencia</b>. CONANP-PNUD-CONABIO: Fortalecimiento de la efectividad del manejo y la resiliencia
                     de las áreas naturales protegidas para proteger la biodiversidad amenazada por el cambio climático. México. 2016-2019</p>
@@ -440,20 +472,48 @@
 
                   <div
                     class="col-md-12">
-                    <img src='@/assets/modal-images/LOGO-IAI.png'>
-                    <img src='@/assets/modal-images/LOGO-ANTARES.jpg'>
+                    <a
+                      href="https://www.gob.mx/semarnat"
+                      target="_blank">
+                      <img src='@/assets/modal-images/LOGO-IAI.png'>
+                    </a>
+                    <a
+                      href="https://www.gob.mx/semarnat"
+                      target="_blank">
+                      <img src='@/assets/modal-images/LOGO-ANTARES.jpg'>
+                    </a>
                     <p class="sponsor-desc"><b>IAI-Antares</b>: Assessment of Marine Ecosystem Services at the Latin-american Antares Time-series Network. 2015-2017</p>
                   </div>
 
                   <div
                     class="col-md-12">
-                    <img src='@/assets/semarnat_n.jpg'>
-                    <img
-                      class="conabio"
-                      src='static/images/CONABIO.svg'>
-                    <img src='@/assets/modal-images/Patrocinadores/Short-GEF-logo-colored-NOTAG-transparent.png'>
-                    <img src='@/assets/modal-images/Patrocinadores/onu-pnuma_trans.gif'>
-                    <img src='@/assets/modal-images/Patrocinadores/NOAA.png'>
+                    <a
+                      href="https://www.gob.mx/semarnat"
+                      target="_blank">
+                      <img src='@/assets/semarnat_n.png'>
+                    </a>
+                    <a
+                      href="https://www.gob.mx/conabio"
+                      target="_blank">
+                      <img
+                        class="conabio"
+                        src='static/images/CONABIO.svg'>
+                    </a>
+                    <a
+                      href="https://www.thegef.org/content/gef-logo"
+                      target="_blank">
+                      <img src='@/assets/modal-images/Patrocinadores/Short-GEF-logo-colored-NOTAG-transparent.png'>
+                    </a>
+                    <a
+                      href="https://www.unenvironment.org/es"
+                      target="_blank">
+                      <img src='@/assets/modal-images/Patrocinadores/onu-pnuma_trans.gif'>
+                    </a>
+                    <a
+                      href="https://www.noaa.gov/"
+                      target="_blank">
+                      <img src='@/assets/modal-images/Patrocinadores/NOAA.png'>
+                    </a>
 
                     <p class="sponsor-desc"><b>Proyecto GEF-6 Gran Ecosistema Marino del Golfo de México GoMx-LME</b>. CONABIO - SEMARNAT - PNUMA - NOAA.
                     Implementation of the Strategic Action Program of the Gulf of Mexico Large Marine Ecosystem. 2018-2022
