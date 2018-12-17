@@ -2,6 +2,12 @@
   <div>
     <div>
       <div class="buoy-label">
+        ID
+      </div>
+      <div class="buoy-data">
+        {{ data.properties.id }}
+      </div>
+      <div class="buoy-label">
         CÓDIGO
       </div>
       <div class="buoy-data">
