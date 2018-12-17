@@ -425,7 +425,14 @@ export default {
   },
   mounted () {
     this.$refs.mapChartBuoy.mapObject.flyTo({ lat: this.buoyChart.geometry.coordinates[1], lon: this.buoyChart.geometry.coordinates[0] }, 7)
-    L.marker({ lat: this.buoyChart.geometry.coordinates[1], lon: this.buoyChart.geometry.coordinates[0] }, {icon: buoyIcon}).addTo(this.$refs.mapChartBuoy.mapObject)
+    L.marker({
+      lat: this.buoyChart.geometry.coordinates[1],
+      lon: this.buoyChart.geometry.coordinates[0]},
+    {
+      icon: buoyIcon
+    }).on('mouseover', function (ev) {
+      console.log('hi')
+    }).addTo(this.$refs.mapChartBuoy.mapObject)
   }
 }
 </script>

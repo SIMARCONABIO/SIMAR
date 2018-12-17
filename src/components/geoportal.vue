@@ -152,12 +152,6 @@ import popupPolygonAlert from './popup-polygon-alert'
 import ModalInfo from '@/components/_shared/modal-info'
 moment.locale('es')
 
-let buoyIcon = L.icon({
-  iconUrl: 'static/images/boya.svg',
-  iconSize: [25, 25],
-  popupAnchor: [0, -20]
-})
-
 export default {
   name: 'Geoportal',
   inject: {
@@ -171,7 +165,13 @@ export default {
         },
         onEachFeature: this.onEachBuoy,
         pointToLayer: function (feature, latlng) {
-          return L.marker(latlng, {icon: buoyIcon})
+          return L.marker(latlng, {icon: new L.DivIcon({
+            className: 'buoy-div-icon',
+            bgPos: [0, -20],
+            html: '<img class="buoy-div-image" src="static/images/boya.svg" /><br>' +
+              '<span class="buoy-div-text" style="font-size: 0.8em">' + feature.properties.id + '</span>'
+          })
+          })
         }
       },
       polygonsOptions: {
