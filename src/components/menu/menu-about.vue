@@ -273,7 +273,7 @@
                       href="https://www.gob.mx/conanp"
                       target="_blank">
                       <img
-                        src="@/assets/modal-images/colabs/logo-conanp-grises.png"
+                        src="@/assets/modal-images/colabs/logo-conanp-grises.jpg"
                         alt="Comisión Nacional de Áreas Naturales Protegidas"></a>
                     <a
                       href="https://www.gob.mx/inecc"
@@ -448,7 +448,7 @@
                     <a
                       href="https://www.gob.mx/conanp"
                       target="_blank">
-                      <img src='@/assets/modal-images/colabs/logo-conanp-grises.png'>
+                      <img src='@/assets/modal-images/colabs/logo-conanp-grises.jpg'>
                     </a>
                     <a
                       href="https://www.thegef.org/content/gef-logo"
